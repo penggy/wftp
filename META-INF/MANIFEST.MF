@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: wftp
+Bundle-SymbolicName: wftp; singleton:=true
+Bundle-Version: 1.0.2.qualifier
+Bundle-Activator: wftp.Activator
+Bundle-Vendor: penggy
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.console,
+ org.eclipse.core.expressions
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/commons-net-ftp-2.0.jar,
+ lib/dom4j-full.jar,
+ .
